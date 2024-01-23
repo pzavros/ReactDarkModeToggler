@@ -8,10 +8,10 @@ Install ReactDarkToggler via npm:
 
 ```bash
 npm install reactdarktoggler
-
+```
 ## Usage
 Wrap your application with ThemeProvider and use the DarkLightToggle component:
-
+```bash
 import React from 'react';
 import { ThemeProvider, DarkLightToggle } from 'reactdarktoggler';
 
@@ -26,7 +26,7 @@ function App() {
 }
 
 export default App;
-
+```
 
 ## API
 # DarkLightToggle
@@ -46,7 +46,7 @@ darkTheme: Object (optional) - Defines the dark theme styles.
 
 ## Customization
 You can customize the themes by passing a lightTheme and darkTheme object to ThemeProvider. Each theme object can contain CSS properties:
-
+```bash
 const lightTheme = {
     backgroundColor: '#f0f0f0',
     color: '#333'
@@ -60,7 +60,9 @@ const darkTheme = {
 <ThemeProvider lightTheme={lightTheme} darkTheme={darkTheme}>
     {/* Your app */}
 </ThemeProvider>
-
+```
 Customize the toggle button using customButtonStyles prop:
+```bash
 <DarkLightToggle customButtonStyles={{ fontSize: '20px', fontWeight: 'bold' }} />
+```
 
