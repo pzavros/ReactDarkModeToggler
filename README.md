@@ -39,7 +39,7 @@ customButtonStyles: Object (optional) - Custom styles for the toggle button.
 ## ThemeProvider
 A context provider that manages the dark and light themes for your application.
 
-#Props:
+# Props:
 
 lightTheme: Object (optional) - Defines the light theme styles.
 darkTheme: Object (optional) - Defines the dark theme styles.
