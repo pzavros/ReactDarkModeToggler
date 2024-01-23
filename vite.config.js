@@ -9,7 +9,7 @@ export default defineConfig({
       entry: 'src/index.jsx',
       name: 'ReactDarkModeToggler',
       formats: ['es', 'umd'],
-      fileName: (format) => `index.${format}.js`
+      fileName: (format) => `index.${format}.jsx`
     },
     rollupOptions: {
       external: ['react', 'react-dom'],

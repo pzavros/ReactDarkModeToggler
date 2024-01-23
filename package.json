@@ -1,6 +1,6 @@
 {
   "name": "reactdarktoggler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react dark mode toggler component",
   "keywords": [
     "react",
@@ -13,7 +13,7 @@
   "author": "Panayiotis Zavros (panazavros8@gmail.com)",
   "private": false,
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/index.jsx",
   "module": "dist/index.module.js",
   "files": [
     "dist"
