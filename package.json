@@ -1,0 +1,59 @@
+{
+  "name": "reactdarktoggler",
+  "version": "1.0.0",
+  "description": "A react dark mode toggler component",
+  "keywords": [
+    "react",
+    "dark",
+    "light",
+    "mode",
+    "toggler",
+    "component"
+  ],
+  "author": "Panayiotis Zavros (panazavros8@gmail.com)",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "vite": "^5.0.8"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "vite": {
+    "plugins": [
+      "react"
+    ]
+  },
+  "dependencies": {
+    "reactdarktoggler": "^1.0.0"
+  }
+}

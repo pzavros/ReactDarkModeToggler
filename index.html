@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <title>React Library Test</title>
+  <script type="module">
+    import React from 'react';
+    import ReactDOM from 'react-dom';
+    import { DarkLightToggle } from './src/index.jsx';
+
+    function App() {
+      const [isDarkMode, setIsDarkMode] = React.useState(false);
+
+      return (
+        <div>
+          <h1>React Library Component Test</h1>
+          <DarkLightToggle 
+            isDarkMode={isDarkMode} 
+            onToggle={() => setIsDarkMode(!isDarkMode)} 
+          />
+        </div>
+      );
+    }
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
